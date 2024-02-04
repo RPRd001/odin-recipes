@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 80%;
+    max-width: 80%;
+    width: 60%;
     margin: auto;
 }
 
