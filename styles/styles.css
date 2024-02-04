@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    color: goldenrod;
+    border-bottom: 1px solid goldenrod;
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover {
+    color: goldenrod;
+}
