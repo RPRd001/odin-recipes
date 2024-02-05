@@ -6,13 +6,12 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 80%;
-    width: 60%;
-    margin: auto;
 }
 
-main {
-    padding: 2rem;
+.recipe {
+    max-width: 90%;
+    width: 60%;
+    margin: 5rem auto;
 }
 
 .back {
@@ -40,17 +39,29 @@ img {
     margin: auto;
 }
 
-h1,
-h2 {
-    width: 50%;
-    margin: 1rem auto;
+.title {
     color: goldenrod;
-    text-align: center;
     border-bottom: 1px solid goldenrod;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 50%;
+}
+
+.description {
+    display: block;
+    font-style: italic;
+    font-weight: 600;
 }
 
 ul,
 ol {
     text-align: justify;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+ul > li,
+ol > li {
+    margin: 0.5rem;
 }

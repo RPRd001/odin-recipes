@@ -6,21 +6,36 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: grid;
-    place-items: center;
-    max-width: 80%;
-    width: 60%;
-    margin: auto;
+    min-width: 375px;
+    max-width: 1440px;
 }
 
-h1 {
+.container {
+    width: 60%;
+    max-width: 90%;
+    margin: 5rem auto;
+    padding: 1rem;
+}
+
+.title {
     color: goldenrod;
     border-bottom: 1px solid goldenrod;
     margin: 1rem;
 }
 
+.description {
+    display: block;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.title,
+.description {
+    text-align: center;
+}
+
 ul {
-    list-style: none;
+    padding: 2rem;
 }
 
 ul li {
